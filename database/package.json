@@ -1,0 +1,13 @@
+{
+  "name": "database-tools",
+  "scripts": {
+    "seed": "node seed-test-data.js",
+    "reset": "node reset-db.js",
+    "migrate": "node run-migration.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "mysql2": "^3.16.2"
+  }
+}

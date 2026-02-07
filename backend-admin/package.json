@@ -1,0 +1,35 @@
+{
+    "name": "backend-admin",
+    "version": "1.0.0",
+    "description": "Admin-facing Express.js API for Certificate Distribution System",
+    "main": "src/app.js",
+    "scripts": {
+        "dev": "nodemon src/app.js",
+        "start": "node src/app.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@pdf-lib/fontkit": "^1.1.1",
+        "bcryptjs": "^2.4.3",
+        "canvas": "^3.2.1",
+        "cors": "^2.8.5",
+        "csv-parse": "^5.6.0",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "express-rate-limit": "^7.1.5",
+        "helmet": "^7.1.0",
+        "joi": "^17.11.0",
+        "jsonwebtoken": "^9.0.2",
+        "multer": "^1.4.5-lts.1",
+        "mysql2": "^3.6.5",
+        "pdf-lib": "^1.17.1",
+        "pdf-parse": "^2.4.5",
+        "pdfjs-dist": "^5.4.530",
+        "sharp": "^0.33.1"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "nodemon": "^3.0.2",
+        "supertest": "^6.3.3"
+    }
+}
